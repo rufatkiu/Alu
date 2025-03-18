@@ -17,7 +17,7 @@ export default defineConfig({
       lastmod: new Date(),
     }),
   ],
-  output: "server",
+  output: "dist",
   adapter: node({
     mode: "middleware",
   }),
