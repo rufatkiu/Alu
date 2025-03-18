@@ -9,6 +9,8 @@ RUN npm i -g pnpm
 
 RUN pnpm install
 
+RUN mkdir -p . .
+
 COPY . .
 
 RUN pnpm run build
